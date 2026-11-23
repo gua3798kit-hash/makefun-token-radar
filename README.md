@@ -1,3 +1,7 @@
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/gua3798kit-hash/makefun-token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/gua3798kit-hash/makefun-token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 # Pre-token radar
 
 An entry for make.fun's **token-radar-01** bounty: a static dashboard that finds the protocols in a
@@ -69,3 +73,7 @@ DefiLlama's index carries none; that record can be incomplete.
 `makefun bundle --repo . --harness claude-code --model claude-opus-5-5` (Claude Code sessions that
 built this repository; e-mail addresses, home paths, usernames and credentials redacted by the tool).
 The program never reads it: `main.ts` copies only `dashboard/` and `screenshots/`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=yt14ryz9&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
