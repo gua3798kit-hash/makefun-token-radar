@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pre-token radar</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<!-- Reading this source: model.js holds the whole value model (build, calibrate, score) and the farm
+     planner (farmPlan, coreMoves); main.ts runs that same file to write board.json. app.js only renders:
+     every figure on screen is recomputed here from the raw snapshot in ../data.js. -->
+<header class="top">
+  <a class="brand" href="#/board"><span class="blip" aria-hidden="true"></span>Pre-token radar</a>
+  <nav class="tabs" aria-label="Views">
+    <a href="#/board" data-tab="board">Board</a>
+    <a href="#/model" data-tab="model">Value model</a>
+    <a href="#/apart" data-tab="apart">Kept apart</a>
+  </nav>
+  <p class="meta" id="meta"></p>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer class="foot">
+  Implied value is this radar's model output from DefiLlama's snapshot, not a forecast and not advice. A protocol listed
+  here records no token in DefiLlama's index; that record can be incomplete.
+</footer>
+<script src="../data.js"></script>
+<script src="model.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
