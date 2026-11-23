@@ -62,3 +62,10 @@ costs dominate).
 
 Implied value is a model output, not a forecast and not financial advice. "Records no token" means
 DefiLlama's index carries none; that record can be incomplete.
+
+## Transcripts
+
+`transcripts/transcripts.tar.gz` is the agent-session bundle written by the kit's
+`makefun bundle --repo . --harness claude-code --model claude-opus-5-5` (Claude Code sessions that
+built this repository; e-mail addresses, home paths, usernames and credentials redacted by the tool).
+The program never reads it: `main.ts` copies only `dashboard/` and `screenshots/`.
